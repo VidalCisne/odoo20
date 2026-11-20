@@ -11,6 +11,7 @@ db_name = ${DB_NAME}
 db_sslmode = require
 dbfilter = ^${DB_NAME}\$
 list_db = False
+http_interface = 0.0.0.0
 http_port = ${PORT:-8069}
 addons_path = /app/addons,/app/custom_addons
 workers = 0
